@@ -1,0 +1,19 @@
+{
+  "name": "docker-telco-auth",
+  "version": "1.0.0",
+  "description": "NodeJS implementation of Telco Authentication Kit on top of Docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wicac/docker-telco-auth.git"
+  },
+  "author": "wicac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wicac/docker-telco-auth/issues"
+  },
+  "homepage": "https://github.com/wicac/docker-telco-auth/#readme"
+}
