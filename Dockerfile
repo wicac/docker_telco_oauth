@@ -15,6 +15,7 @@ COPY models /apps/docker-telco-auth/models
 COPY lib /apps/docker-telco-auth/lib
 COPY views /apps/docker-telco-auth/views
 COPY public /apps/docker-telco-auth/public
+COPY .env /apps/docker-telco-auth
 
 COPY package.json .
 COPY app.js .
