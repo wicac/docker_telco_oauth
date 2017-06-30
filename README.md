@@ -23,9 +23,9 @@ Docker version of Telco Oauth2 by Rayhan
     "redirect_url" : "http://192.168.99.100:4000/callback"
    }```
 3. Create .env file which contains these lines:
-   TWILIO_ACCOUNT_SID=xxxxx
-   TWILIO_AUTH_TOKEN=xxxx
-   TWILIO_PHONE_NUMBER=xxxx
+   * TWILIO_ACCOUNT_SID=xxxxx
+   * TWILIO_AUTH_TOKEN=xxxx
+   * TWILIO_PHONE_NUMBER=xxxx
 4. Build docker-telco-oauth image:
    ```docker build -t [your image name]```
 5. Run image 
