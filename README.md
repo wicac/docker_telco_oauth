@@ -10,7 +10,18 @@ Docker version of Telco Oauth2 by Rayhan
 ## How to start:
 1. Start Mongo Image
    ```docker run --name mongo -p 27017:27017 -d mongo:latest```
-2. Insert credential in mongo db with this format
+2. Insert credential in mongo db for new apps with this format:
+   ```{
+    "name" : "[Your app name]",
+    "client_id" : "[your app client id]",
+    "redirect_url" : "[your app callback url"
+    }```
+    e.g. if you are using oauth-client from my repo:
+    ```{
+    "name" : "#1 app",
+    "client_id" : "helloapp",
+    "redirect_url" : "http://192.168.99.100:4000/callback"
+   }```
 3. Create .env file which contains these lines:
    TWILIO_ACCOUNT_SID=xxxxx
    TWILIO_AUTH_TOKEN=xxxx
